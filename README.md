@@ -1,4 +1,5 @@
 # project-boost
-First of three games taught on GameDev.tv's Udemy course. Will be worked on, but currently it's only a "hello world" script with different words. 
+First of three games taught on GameDev.tv's Udemy course. Working on physics and learning rigid bodies. This readme was outdated when I forced a commit, I guess I'm still getting the hang of this hahaha.
 
-Current version: 0.05
+Current Version: 0.3
+ 
