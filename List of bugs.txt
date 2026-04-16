@@ -1,0 +1,2 @@
+- On my friend's PC, as soon as he lands he can't take off again. In mine it's normal, so I'm gonna test it with another local machine soon;
+- If you land horizontally, you cannot take off again since you're a laid-down cylinder. "IT'S NOT A BUG, IT'S A FEATURE!" - VinesauceJoel
