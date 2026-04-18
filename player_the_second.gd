@@ -37,4 +37,6 @@ func _on_body_entered(body: Node) -> void:
 			twin_die.tween_callback(get_tree().reload_current_scene)
 
 func victorious_win(level_three: String) -> void:
-		get_tree().call_deferred("change_scene_to_file", level_three)
+		var t_win = create_tween()
+		t_win.tween_interval(0.75)
+		t_win.tween_callback(get_tree().change_scene_to_file.bind(level_three))

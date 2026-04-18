@@ -38,4 +38,6 @@ func _on_body_entered(body: Node) -> void:
 			
 # This function takes in level_two as the parameter, so thou must declareth str
 func victorious_win(level_two: String) -> void:
-		get_tree().call_deferred("change_scene_to_file", level_two)
+		var t_win = create_tween()
+		t_win.tween_interval(0.75)
+		t_win.tween_callback(get_tree().change_scene_to_file.bind(level_two))
